@@ -1,0 +1,187 @@
+@media screen and (min-width: 320px) and (max-width: 540px){
+    .container-cabecalho{
+        width: 950px;
+        display: flex;
+        align-items: center;
+        padding-left: 30px;
+    }
+    .container-conteudo_informacao{
+        width: 300px;
+        height: 690px;
+        margin-top: 50px;
+        background-color: aliceblue;
+    }
+    .container-form-checkbox div{
+        width: 60px;
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        width: 100%;
+    }
+    .container-ofertas_imagens{  
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .ofertas-imagem-maior{
+        width: 100%;
+        height: 250px;
+    }
+    .figure-maior::after{
+        content: "";
+        top: 208px;
+        position: absolute;
+        width: 100%;
+        height: 7vh;
+        background:#000000 ;
+        opacity: 0.5;
+    }
+    .fig-maior{
+        position: absolute;
+        top: 220px;
+        font-size: 22px;
+        color: #fff;
+        left: 20px;
+    }
+    .container-ofertas_imagens-menores{
+        margin-top: 30px;
+        padding-left: 35px;
+    }
+    .container-ofertas_titulo h3{
+        width: 200px;
+        color: #3b3939;
+        text-align: start;
+    }
+    .container-anuncios_cards{
+        padding-left: 20px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .container-anuncios figure img{
+        width: 100%;
+        height: 250px;
+    }
+    .container-footer{
+        background-color: rgb(38, 48, 187);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+}
+@media screen and (min-width: 541px) and (max-width: 768px){
+    .container-cabecalho{ 
+        padding-left: 30px;
+    }
+    .container-conteudo_informacao{
+        width: 500px;
+    }
+    button{
+        width: 100%;
+    }
+    .container-ofertas_imagens{
+        padding-left: 15px;
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .ofertas-imagem-maior{
+        width: 100%;
+        height: 520px;
+    }
+    .container-ofertas_imagens-menores{
+        margin-top: 30px;
+        padding-left: 45px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+    .ofertas-imagem-menor{
+        width: 100%;
+        height: 250px;
+    }
+    .container-anuncios_cards{
+        background-position: center;
+        padding-left: 30px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .container-anuncios figure img{
+        width: 100%;
+        height: 500px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1100px){
+    .container-cabecalho{ 
+        padding-left: 30px;
+    }
+    .container-conteudo_informacao{
+        width: 730px;
+    }
+    .container-ofertas_titulo{
+        width: 90%;
+    }
+    .container-ofertas_imagens{
+        padding-left: 35px;
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .ofertas-imagem-maior{
+        width: 100%;
+        height: 520px;
+    }
+    .container-ofertas_imagens-menores{
+        margin-top: 30px;
+        padding-left: 55px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+    .ofertas-imagem-menor{
+        width: 100%;
+        height: 250px;
+    }
+    .container-anuncios_cards{
+        padding-left: 40px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .container-anuncios figure img{
+        width: 100%;
+        height: 500px;
+    }
+    
+}
+@media screen and (min-width: 1101px) {
+    .container-cabecalho{
+        width: 950px;
+        
+    }
+    .container-conteudo_informacao{
+        width: 950px;
+        
+    }
+    .container-ofertas_titulo{
+        width: 100%;
+    }
+    .container-ofertas_imagens{
+        width: 100%;
+    }
+    
+}

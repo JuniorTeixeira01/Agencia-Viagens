@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cabecalho{
+    background-color: rgb(226, 236, 245);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-cabecalho{
+    width: 950px;
+    display: flex;
+    align-items: center;
+}
+.container-cabecalho img{
+    width: 40px;
+    height: 40px;
+}
+.container-cabecalho p{
+    color: rgb(104, 55, 219);
+    font-size: 22px;
+}
+/******* CABEÇALHO *****************/
+.conteudo-imagem_fundo{
+    height: 125vh;
+    background-image: url("../assets/img/bahia.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.container-conteudo_informacao{
+    width: 950px;
+    height: 690px;
+    margin-top: 50px;
+    background-color: aliceblue;
+}
+.container-conteudo_informacao-topo{
+    background-color:rgb(84, 35, 199);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.container-conteudo_informacao-topo img{
+    width: 40px;
+    height: 40px;
+}
+.container-conteudo_informacao-topo h3{
+    color: white;
+}
+/********** TOPO do FORMULÁRIO ************/
+.container-conteudo_formulario h2{
+    margin: 30px 0 0 20px ;
+    color: rgb(73, 70, 70);
+    font-style: oblique;
+}
+form{
+    width: calc(100% - 30px);
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form input{
+    width: 98%;
+    height: 25px;
+}
+.container-form_flex-row{
+    width: 98%;
+    display: flex;
+    gap: 20px;
+}
+.container-flex-column{
+   width: 49%;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.flex-row{
+    width: 100%;
+    height: 25px;
+}
+select{
+    width: 102%;
+    height: 30px;
+}
+form h4{
+    color: rgb(51, 48, 48);
+    margin-bottom: 20px;
+}
+.container-form-radio{
+    display: flex;
+    gap: 90px;
+}
+.container-form-radio div{
+    display: flex;
+    gap: 5px;
+}
+.container-form-checkbox{
+    display: flex;
+    gap: 30px;
+}
+.container-form-checkbox div{
+    width: 100px;
+    display: flex;
+}
+button{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(84, 35, 199);
+    color: #fff;
+    margin-top: 10px;
+    font-size: 14px;
+}
+/****** FORMULÁRIO *********/
+.container-ofertas_titulo{
+    padding-left: 35px;
+    line-height: 35px;
+    margin: 20px 0;
+}
+.container-ofertas_titulo h2{
+    color: #1b1a1a;
+}
+strong{
+    color: #000000;
+}
+.container-ofertas_titulo h3{
+    color: #3b3939;
+}
+.ofertas-imagem-maior{
+    width: 600px;
+    height: 520px;
+}
+.ofertas-imagem-menor{
+    width: 300px;
+    height: 250px;
+}
+.container-ofertas_imagens{
+   display: flex;
+   justify-content: space-evenly;
+}
+.container-ofertas_imagem-maior{
+    margin-left: 35px;
+}
+.container-ofertas_imagens-menores{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.figure-maior{
+    display: flex;
+    position: relative;
+}
+.figure-maior::after{
+    content: "";
+    top: 478px;
+    position: absolute;
+    width: 100%;
+    height: 7vh;
+    background:#000000 ;
+    opacity: 0.5;
+}
+.fig-maior{
+    position: absolute;
+    top: 490px;
+    font-size: 22px;
+    color: #fff;
+    left: 20px;
+}
+.figure-menores{
+    display: flex;
+    position: relative;
+}
+.figure-menores::after{
+    content: "";
+    top: 207px;
+    position: absolute;
+    width: 100%;
+    height: 7vh;
+    background:#000000 ;
+    opacity: 0.5;
+}
+.fig-menores{
+    position: absolute;
+    top: 220px;
+    left: 20px;
+    font-size: 22px;
+    color: #fff;
+}
+/******************** OFERTAS *****************/
+.container-anuncios figure img{
+    width: 600px;
+    height: 500px;
+}
+.container-anuncios_cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-anuncios_description{
+    line-height: 30px;
+    margin: 30px 0;
+}
+/********** ANUNCIOS *******************/
+.container-footer{
+    background-color: rgb(38, 48, 187);
+    display: flex;
+    justify-content: space-around;
+}
+.container-contato{
+    color: #fff;
+    margin: 0 0 20px 0 ;
+}
+.container-contato div{
+    display: flex;
+    gap: 10px;
+    line-height: 30px;
+}
+.container-contato div img{
+    width: 20px;
+    height: 20px;
+}
+.container-contato h2{
+    margin: 20px auto;
+}
+
+
+
+
+
